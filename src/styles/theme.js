@@ -2,6 +2,7 @@ const theme = {
   // ${({ theme }) => theme.textColors.primary}
   textColors: {
     default: '#333',
+    secondary: '#fff',
     primary: '#D81522',
   },
 
