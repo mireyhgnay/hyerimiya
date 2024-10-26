@@ -1,10 +1,22 @@
-import { Container, ScrollDown, Title } from './MainBanner.styles';
+import {
+  Container,
+  ScrollDown,
+  Title,
+  ScrollBall,
+  ScrollText,
+  ScrollBox,
+} from './MainBanner.styles';
 
 function MainBanenr() {
   return (
     <Container>
       <Title>YANGHYERIM</Title>
-      <ScrollDown></ScrollDown>
+      <ScrollBox>
+        <ScrollDown>
+          <ScrollBall></ScrollBall>
+        </ScrollDown>
+        <ScrollText>Scroll Down</ScrollText>
+      </ScrollBox>
     </Container>
   );
 }
