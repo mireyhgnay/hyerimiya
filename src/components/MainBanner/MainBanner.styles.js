@@ -14,11 +14,11 @@ export const Container = styled.section`
 
 export const Title = styled.h1`
   font-family: 'Anton', sans-serif;
-  font-size: 200px;
   letter-spacing: 5px;
   text-shadow: 8px 8px 10px rgba(0, 0, 0, 0.3);
   color: #fff;
   transition: 0.1s linear;
+  font-size: 12.5rem; /* 200px = 12.5rem (기본 16px 기준) */
 
   @media all and (max-width: 1090px) {
     font-size: 9rem;
@@ -27,9 +27,6 @@ export const Title = styled.h1`
     font-size: 5rem;
   }
   @media all and (max-width: 490px) {
-    font-size: 3rem;
-  }
-  @media all and (max-width: 350px) {
     font-size: 2rem;
   }
 `;
