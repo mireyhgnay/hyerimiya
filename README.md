@@ -22,6 +22,28 @@ React, Router, styled-components, React Hooks, React Icons, Framer Motion
 
 <br />
 
+## ✔️ Description
+
+**`Cross Browsing`**
+
+✔️ Google Chrome
+
+✔️ Microsoft Edge
+
+✔️ Safari
+
+**`Mobile Test`**
+
+✔️ iPhone
+
+✔️ Android
+
+**`Responsive`**
+
+✔️ min-width 320px
+
+<br />
+
 ## 🌠 Images
 
 <br />
