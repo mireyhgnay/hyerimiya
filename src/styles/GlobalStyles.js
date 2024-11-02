@@ -30,6 +30,7 @@ export const GlobalStyle = createGlobalStyle`
       display: none;
   }
   body {
+    font-size: 16px;
     line-height: 1;
     color: ${({ theme }) => theme.textColors.default};
     background-color: ${({ theme }) => theme.backgroundColors.default};
@@ -59,9 +60,10 @@ export const GlobalStyle = createGlobalStyle`
     -moz-user-select:none;
     -ms-user-select:none;
     user-select:none;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-style: normal;
+    transition: 1s;
   }
   a {
     text-decoration:none;

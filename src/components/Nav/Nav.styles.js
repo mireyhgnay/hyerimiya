@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export const Container = styled.nav`
   width: 100%;
-  padding: 40px 0;
+  padding: 30px 0;
 
   @media all and (max-width: 768px) {
     padding: 20px 0;
@@ -21,7 +21,6 @@ export const NavItemLink = styled(Link).withConfig({
   shouldForwardProp: (prop) => prop !== 'isActive',
 })`
   font-size: 4.7rem;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   position: relative;
   color: ${(props) => (props.isActive ? '#000' : '#333')};

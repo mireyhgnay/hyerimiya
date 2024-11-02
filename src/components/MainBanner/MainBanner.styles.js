@@ -1,7 +1,7 @@
 import styled, { keyframes } from 'styled-components';
 
 export const Container = styled.section`
-  background: url('./images/main_banner.jpg') center / cover no-repeat;
+  background: url('images/main_banner.jpg') center / cover no-repeat;
   width: 100%;
   height: 100vh;
   min-height: 500px;
