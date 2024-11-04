@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   CareerContainer,
-  Title,
   CareerBox,
   CareerContents,
   Name,
@@ -18,8 +17,8 @@ const Career = () => {
   return (
     <>
       {careerData.map((item, index) => (
-        <CareerBox>
-          <CareerContents key={index}>
+        <CareerBox key={index}>
+          <CareerContents>
             <Name>{item.company}</Name>
             <Team>{item.team}</Team>
             <Date>{item.date}</Date>
@@ -40,7 +39,6 @@ const Career = () => {
 export default function Careers() {
   return (
     <CareerContainer>
-      <Title>Career</Title>
       <Career />
     </CareerContainer>
   );

@@ -1,9 +1,12 @@
 import styled from 'styled-components';
 
 export const IntroContainer = styled.section`
-  width: 100%;
+  width: 1200px;
   margin: 50px auto 0;
 
+  @media all and (max-width: 1150px) {
+    width: 100%;
+  }
   @media all and (max-width: 500px) {
     margin: 20px auto 0;
   }
@@ -14,7 +17,7 @@ export const AboutContainer = styled.div`
   align-items: center;
   justify-content: space-around;
 
-  @media all and (max-width: 1150px) {
+  @media all and (max-width: 1024px) {
     flex-direction: column;
     text-align: center;
   }

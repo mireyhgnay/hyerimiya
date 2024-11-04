@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
 export const CareerContainer = styled.section`
-  margin-top: 150px;
-`;
+  width: 1200px;
+  margin: 150px auto;
 
-export const Title = styled.h2`
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: ${({ theme }) => theme.textColors.primary};
+  @media all and (max-width: 1190px) {
+    width: 100%;
+    padding: 0 20px;
+  }
 `;
 
 export const CareerBox = styled.div`
@@ -16,7 +16,7 @@ export const CareerBox = styled.div`
   justify-content: space-between;
 
   & + & {
-    margin-top: 100px;
+    margin-top: 80px;
   }
 `;
 
@@ -49,7 +49,8 @@ export const List = styled.ul`
 export const Item = styled.li`
   position: relative;
   padding-left: 9px;
-  line-height: 2.5;
+  line-height: 1.5;
+  margin-top: 12px;
 
   &:first-child {
     font-weight: 500;
@@ -68,7 +69,11 @@ export const Item = styled.li`
 `;
 
 export const CareerImg = styled.img`
-  width: 450px;
-  height: 450px;
+  width: 400px;
+  height: 400px;
   border-radius: 20%;
+
+  @media all and (max-width: 1024px) {
+    display: none;
+  }
 `;
