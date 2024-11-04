@@ -1,6 +1,7 @@
 import React from 'react';
 import {
   CareerContainer,
+  Title,
   CareerBox,
   CareerContents,
   Name,
@@ -39,6 +40,7 @@ const Career = () => {
 export default function Careers() {
   return (
     <CareerContainer>
+      <Title>Career</Title>
       <Career />
     </CareerContainer>
   );

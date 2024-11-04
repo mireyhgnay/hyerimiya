@@ -8,6 +8,16 @@ export const CareerContainer = styled.section`
     width: 100%;
     padding: 0 20px;
   }
+
+  @media all and (max-width: 1024px) {
+    margin: 100px auto;
+  }
+`;
+
+export const Title = styled.h3`
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: ${({ theme }) => theme.textColors.primary};
 `;
 
 export const CareerBox = styled.div`

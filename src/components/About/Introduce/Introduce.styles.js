@@ -32,6 +32,7 @@ export const Img = styled.img`
   background-size: cover;
   background-position: center 90%;
   background-repeat: no-repeat;
+  background-color: #000;
 
   @media all and (max-width: 1440px) {
     width: 450px;

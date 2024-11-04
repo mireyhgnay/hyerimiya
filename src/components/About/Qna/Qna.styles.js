@@ -8,6 +8,7 @@ export const QnaContainer = styled.section`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: #000;
 `;
 
 export const QnaContents = styled.div`
