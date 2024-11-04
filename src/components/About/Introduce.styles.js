@@ -1,12 +1,8 @@
 import styled from 'styled-components';
 
 export const IntroContainer = styled.section`
-  width: 1200px;
+  width: 100%;
   margin: 50px auto 0;
-
-  @media all and (max-width: 1150px) {
-    width: 100%;
-  }
 
   @media all and (max-width: 500px) {
     margin: 20px auto 0;
@@ -91,7 +87,7 @@ export const KeywordContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 40px;
-  margin: 100px 0;
+  margin: 70px 0 0 0;
   color: #000;
 
   @media all and (max-width: 1150px) {

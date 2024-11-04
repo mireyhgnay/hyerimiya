@@ -1,6 +1,6 @@
 import styled, { keyframes } from 'styled-components';
 
-export const Container = styled.section`
+export const Container = styled.div`
   background: url('images/main_banner.jpg') center / cover no-repeat;
   width: 100%;
   height: 100vh;

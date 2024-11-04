@@ -48,16 +48,16 @@ export const NavItemLink = styled(Link).withConfig({
 
   @media all and (max-width: 1090px) {
     font-size: 3rem;
-  }
-
-  @media all and (max-width: 930px) {
-    font-size: 2.3rem;
 
     &::after {
       width: 15px;
       height: 15px;
       right: -15px;
     }
+  }
+
+  @media all and (max-width: 930px) {
+    font-size: 2.3rem;
   }
 
   @media all and (max-width: 768px) {
