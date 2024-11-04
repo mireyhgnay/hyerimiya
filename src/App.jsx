@@ -4,7 +4,9 @@ import { Outlet, useLocation } from 'react-router-dom';
 import theme from './styles/theme';
 import styled from 'styled-components';
 
-const Wrapper = styled.div`
+const Wrapper = styled.div.withConfig({
+  shouldForwardProp: (prop) => prop !== 'backgroundColor',
+})`
   background-color: ${(props) => props.backgroundColor};
 `;
 
