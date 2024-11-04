@@ -8,7 +8,7 @@ const theme = {
   // ${({ theme }) => theme.backgroundColors.primary}
   backgroundColors: {
     default: '#FFF',
-    primary: '#F5F2DC',
+    primary: '#FEF9F2',
   },
 };
 

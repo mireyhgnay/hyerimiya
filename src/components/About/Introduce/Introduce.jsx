@@ -14,7 +14,7 @@ import {
   BlogLink,
 } from './Introduce.styles';
 
-export const Keywords = ({ imgSrc, title, subtitle, contents, children }) => {
+const Keywords = ({ imgSrc, title, subtitle, contents, children }) => {
   return (
     <KeywordBox>
       <img src={`images/${imgSrc}`} alt={title} />
@@ -31,6 +31,7 @@ export const Keywords = ({ imgSrc, title, subtitle, contents, children }) => {
 export default function Introduce() {
   return (
     <IntroContainer>
+      <h2 className='blind'>About Me</h2>
       <AboutContainer>
         <Img src='' />
         <IntroList>

@@ -63,7 +63,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-style: normal;
-    transition: 1s;
+    transition: 0.3s;
   }
   a {
     text-decoration:none;
