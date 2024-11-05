@@ -1,5 +1,21 @@
 import React from 'react';
+import Skills from '../components/Skill/Skills/Skills';
+import Keywords from '../components/Skill/Keywords';
+import Footer from '../components/Skill/Footer';
+import styled from 'styled-components';
+
+const SkillContainer = styled.section`
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+`;
 
 export default function Skill() {
-  return <div>skill</div>;
+  return (
+    <SkillContainer>
+      <Skills />
+      <Keywords />
+      <Footer></Footer>
+    </SkillContainer>
+  );
 }

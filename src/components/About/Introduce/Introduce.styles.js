@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const IntroContainer = styled.section`
-  width: 1200px;
+  width: 90%;
+  max-width: 1200px;
   margin: 50px auto 0;
 
   @media all and (max-width: 1150px) {

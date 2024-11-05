@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const CareerContainer = styled.section`
-  width: 1200px;
+  width: 90%;
+  max-width: 1200px;
   margin: 150px auto;
 
   @media all and (max-width: 1190px) {
@@ -79,8 +80,8 @@ export const Item = styled.li`
 `;
 
 export const CareerImg = styled.img`
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   border-radius: 20%;
 
   @media all and (max-width: 1024px) {
