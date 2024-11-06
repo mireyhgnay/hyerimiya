@@ -15,7 +15,7 @@ export default function Skill() {
     <SkillContainer>
       <Skills />
       <Keywords />
-      <Footer></Footer>
+      <Footer />
     </SkillContainer>
   );
 }
