@@ -1,10 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const WorkContainer = styled.section`
+const WorksContainer = styled.section`
   width: 90%;
   max-width: 1200px;
-  margin: 50px auto;
+  margin: 0 auto;
+  padding: 50px 0;
 `;
 
 const Title = styled.h1`
@@ -17,8 +18,9 @@ const Title = styled.h1`
 
 export default function Work() {
   return (
-    <WorkContainer>
+    <WorksContainer>
       <Title>PORTFOLIO</Title>
-    </WorkContainer>
+      {/* <Footer /> */}
+    </WorksContainer>
   );
 }
