@@ -63,10 +63,6 @@ export const Item = styled.li`
   line-height: 1.5;
   margin-top: 12px;
 
-  &:first-child {
-    font-weight: 500;
-  }
-
   &::before {
     content: '';
     position: absolute;

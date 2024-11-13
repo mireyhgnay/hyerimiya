@@ -5,6 +5,7 @@ const KeywordsContainer = styled.div`
   width: 100%;
   margin-top: 100px;
   text-align: center;
+  padding-bottom: 80px;
 
   @media all and (max-width: 1024px) {
     margin-top: 70px;

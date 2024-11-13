@@ -1,7 +1,6 @@
 import React from 'react';
 import Skills from '../components/Skill/Skills/Skills';
 import Keywords from '../components/Skill/Keywords';
-import Footer from '../components/Skill/Footer';
 import styled from 'styled-components';
 
 const SkillContainer = styled.section`
@@ -15,7 +14,6 @@ export default function Skill() {
     <SkillContainer>
       <Skills />
       <Keywords />
-      <Footer />
     </SkillContainer>
   );
 }

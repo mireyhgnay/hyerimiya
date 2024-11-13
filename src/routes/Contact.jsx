@@ -81,7 +81,7 @@ const contactData = [
     href: 'https://www.linkedin.com/in/%ED%98%9C%EB%A6%BC-%EC%96%91-8872262b8/',
   },
   {
-    name: 'Travel Blog',
+    name: 'Daily Blog',
     href: 'https://blog.naver.com/hyerimiya_',
   },
 ];
