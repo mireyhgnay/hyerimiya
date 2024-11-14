@@ -2,7 +2,9 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Container = styled.nav`
-  width: 100%;
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
   padding: 30px 0;
 
   @media all and (max-width: 768px) {
@@ -12,7 +14,7 @@ export const Container = styled.nav`
 
 export const NavList = styled.ul`
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 `;
 
 export const NavItem = styled.li``;
