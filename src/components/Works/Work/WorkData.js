@@ -50,7 +50,7 @@ const workDatas = [
   },
   {
     imageUrl: './images/kbs_logo.png',
-    title: 'Homepage',
+    title: 'KBS Homepage',
     subtitle: 'KBS',
     projectName: 'KBS 사내 방송기술웹진 개편 및 운영',
     date: '2018.08 ~ 2018.10',

@@ -13,8 +13,19 @@ const Title = styled.h1`
   font-size: 7rem;
   font-weight: 900;
   text-align: center;
-  letter-spacing: 20px;
+  letter-spacing: 30px;
   color: ${({ theme }) => theme.textColors.primary};
+  transition: 0.3s;
+
+  @media all and (max-width: 1024px) {
+    font-size: 4rem;
+    letter-spacing: 15px;
+    margin-top: 30px;
+  }
+
+  @media all and (max-width: 580px) {
+    display: none;
+  }
 `;
 
 const Footer = styled.footer`

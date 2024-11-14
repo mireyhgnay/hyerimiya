@@ -5,8 +5,6 @@ export const Container = styled.div`
   position: relative;
 `;
 
-export const LinkBox = styled.a``;
-
 export const ImgBox = styled.div.withConfig({
   shouldForwardProp: (prop) => prop !== 'imageUrl',
 })`
@@ -21,15 +19,28 @@ export const ImgBox = styled.div.withConfig({
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 `;
 
+export const LinkBox = styled.a`
+  &:hover ${ImgBox} {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+`;
+
 export const Title = styled.p`
   position: absolute;
   top: -35px;
   left: 4%;
-  font-size: 3.7rem;
+  font-size: 3rem;
   font-weight: 900;
   line-height: 1;
   color: #000;
   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2);
+
+  @media all and (max-width: 580px) {
+    font-size: 2rem;
+    top: -45px;
+    left: 0;
+  }
 `;
 
 export const LinkTitle = styled(Title)`
@@ -39,6 +50,11 @@ export const LinkTitle = styled(Title)`
     position: absolute;
     top: 0px;
     right: -30px;
+
+    @media all and (max-width: 580px) {
+      font-size: 1.3rem;
+      right: -25px;
+    }
   }
 `;
 
@@ -50,6 +66,10 @@ export const SubTitle = styled.p`
   font-weight: 900;
   color: #000;
   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2);
+
+  @media all and (max-width: 580px) {
+    display: none;
+  }
 `;
 
 export const Contents = styled.ul`
