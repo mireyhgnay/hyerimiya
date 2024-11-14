@@ -24,7 +24,7 @@ export const AboutContainer = styled.div`
   }
 `;
 
-export const Img = styled.img`
+export const ImgBox = styled.div`
   width: 550px;
   height: 550px;
   transform: scaleX(-1);
@@ -46,7 +46,7 @@ export const Img = styled.img`
   }
 `;
 
-export const IntroList = styled.ul`
+export const IntroList = styled.div`
   background-color: rgba(255, 255, 255, 0.7);
   padding: 20px 0px 20px 40px;
 
@@ -55,7 +55,7 @@ export const IntroList = styled.ul`
   }
 `;
 
-export const IntroItem = styled.li`
+export const IntroItem = styled.p`
   position: relative;
   font-size: 1rem;
   font-weight: 500;

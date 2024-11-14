@@ -2,7 +2,7 @@ import React from 'react';
 import {
   IntroContainer,
   AboutContainer,
-  Img,
+  ImgBox,
   IntroList,
   IntroItem,
   KeywordContainer,
@@ -33,7 +33,7 @@ export default function Introduce() {
     <IntroContainer>
       <h2 className='blind'>About Me</h2>
       <AboutContainer>
-        <Img src='' />
+        <ImgBox aria-label='introduce image' />
         <IntroList>
           <IntroItem>
             안녕하세요ᕱᕱ <br />

@@ -26,7 +26,7 @@ export const LinkBox = styled.a`
   }
 `;
 
-export const Title = styled.p`
+export const Title = styled.strong`
   position: absolute;
   top: -35px;
   left: 4%;
@@ -78,10 +78,10 @@ export const Contents = styled.ul`
 `;
 
 export const Item = styled.li`
-  line-height: 1.5;
+  line-height: 1.6;
 
   strong {
-    font-weight: 500;
+    font-weight: 600;
   }
 
   & + & {
