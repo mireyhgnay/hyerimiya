@@ -16,12 +16,6 @@ npm start
 
 <br />
 
-## 👩🏻‍💻 Language
-
-React, Router, styled-components, React Hooks, React Icons, Framer Motion
-
-<br />
-
 ## ✔️ Description
 
 **`Cross Browsing`**
