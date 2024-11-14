@@ -25,7 +25,7 @@ export const AboutContainer = styled.div`
 `;
 
 export const ImgBox = styled.div`
-  width: 550px;
+  width: 50%;
   height: 550px;
   transform: scaleX(-1);
   border-radius: 50%;
