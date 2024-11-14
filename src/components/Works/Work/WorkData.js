@@ -67,7 +67,7 @@ const workDatas = [
       '부서의 웹 디자인 업무를 주도하며 디자이너와 퍼블리셔 역할을 동시에 수행하였고, KOBA와 미디어 창의 기술전 등 다양한 행사에 참여하여 폭넓은 경험을 쌓았습니다.',
   },
   {
-    url: '',
+    url: 'https://hyerimiya.vercel.app/',
     imageUrl: './images/works/portfolio.jpg',
     title: 'PORTFOLIO',
     subtitle: 'HYERIMIYA',
