@@ -56,10 +56,6 @@ export const GlobalStyle = createGlobalStyle`
   body {
     min-width: 320px;
     line-height: 1.2;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-style: normal;

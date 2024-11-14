@@ -21,7 +21,7 @@ const Footer = styled.footer`
   font-size: 1rem;
   font-weight: 500;
   text-align: center;
-  padding: 50px 0;
+  padding: 100px 0;
 `;
 
 export default function Work() {
