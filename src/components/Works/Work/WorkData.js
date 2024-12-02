@@ -35,7 +35,7 @@ const workDatas = [
     title: 'FLIGHT',
     subtitle: 'TMON',
     projectName: '티몬 실시간 항공 국내선 검색결과 개편',
-    date: '2022.04 ~ 2023.06',
+    date: '2022.04 ~ 2022.08',
     contents:
       '국내선 항공 검색결과 페이지의 UI를 HTML, SASS, JavaScript로 재구성하여 PC와 모바일 사용자 경험을 개선하고, gulp-file-include를 사용해 공통 컴포넌트를 구조화해 코드 재사용성과 유지보수성을 향상시켰습니다.',
   },
