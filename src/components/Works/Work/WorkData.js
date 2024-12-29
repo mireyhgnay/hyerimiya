@@ -40,6 +40,7 @@ const workDatas = [
       '국내선 항공 검색결과 페이지의 UI를 HTML, SASS, JavaScript로 재구성하여 PC와 모바일 사용자 경험을 개선하고, gulp-file-include를 사용해 공통 컴포넌트를 구조화해 코드 재사용성과 유지보수성을 향상시켰습니다.',
   },
   {
+    url: 'https://www.tmon.co.kr/',
     imageUrl: './images/tmon_logo.jpeg',
     title: 'TMON SERVICE',
     subtitle: 'TMON',
@@ -49,6 +50,7 @@ const workDatas = [
       '티몬 서비스의 프론트엔드 개발과 운영을 담당하며, JavaScript, React, TypeScript, JSP 등을 활용해 재사용성 높은 UI를 구현하고 여러 팀과의 원활한 협업으로 프로젝트를 주도하였습니다.',
   },
   {
+    url: 'https://hyerimiya.notion.site/KBS-16b47244c10780cb876dc72c60fd2bd6?pvs=4',
     imageUrl: './images/kbs_logo.png',
     title: 'KBS Homepage',
     subtitle: 'KBS',
@@ -67,10 +69,40 @@ const workDatas = [
       '부서의 웹 디자인 업무를 주도하며 디자이너와 퍼블리셔 역할을 동시에 수행하였고, KOBA와 미디어 창의 기술전 등 다양한 행사에 참여하여 폭넓은 경험을 쌓았습니다.',
   },
   {
-    url: 'https://hyerimiya.vercel.app/',
+    url: 'https://github.com/mireyhgnay/hyerimiya/blob/main/README.md',
     imageUrl: './images/works/portfolio.jpg',
     title: 'PORTFOLIO',
     subtitle: 'HYERIMIYA',
+  },
+  {
+    url: 'https://github.com/mireyhgnay/hansot/blob/main/README.md',
+    imageUrl: './images/works/hansot.jpg',
+    title: 'HANSOT',
+    subtitle: 'CLONE CODING',
+  },
+  {
+    url: 'https://github.com/mireyhgnay/iu-fanpage/blob/main/README.md',
+    imageUrl: './images/works/fanpage.jpg',
+    title: 'FANPAGE',
+    subtitle: 'IU BEST VIDEO',
+  },
+  {
+    url: 'https://github.com/mireyhgnay/dog-api/blob/main/README.md',
+    imageUrl: './images/works/dog.jpg',
+    title: 'DOG BREEDS',
+    subtitle: 'TOY PROJECT',
+  },
+  {
+    url: 'https://github.com/mireyhgnay/typing-game/blob/main/README.md',
+    imageUrl: './images/works/typing.jpg',
+    title: 'TYPING GAME',
+    subtitle: 'TOY PROJECT',
+  },
+  {
+    url: 'https://github.com/mireyhgnay/lotto/blob/main/README.md',
+    imageUrl: './images/works/lotto.png',
+    title: 'LOTTO',
+    subtitle: 'TOY PROJECT',
   },
   {
     url: 'https://github.com/mireyhgnay',
