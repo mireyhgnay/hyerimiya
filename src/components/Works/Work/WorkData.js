@@ -87,24 +87,6 @@ const workDatas = [
     subtitle: 'IU BEST VIDEO',
   },
   {
-    url: 'https://github.com/mireyhgnay/dog-api/blob/main/README.md',
-    imageUrl: './images/works/dog.jpg',
-    title: 'DOG BREEDS',
-    subtitle: 'TOY PROJECT',
-  },
-  {
-    url: 'https://github.com/mireyhgnay/typing-game/blob/main/README.md',
-    imageUrl: './images/works/typing.jpg',
-    title: 'TYPING GAME',
-    subtitle: 'TOY PROJECT',
-  },
-  {
-    url: 'https://github.com/mireyhgnay/lotto/blob/main/README.md',
-    imageUrl: './images/works/lotto.png',
-    title: 'LOTTO',
-    subtitle: 'TOY PROJECT',
-  },
-  {
     url: 'https://github.com/mireyhgnay',
     imageUrl: './images/works/github.png',
     title: 'GITHUB',
