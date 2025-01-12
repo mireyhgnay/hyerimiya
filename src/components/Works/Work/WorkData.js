@@ -81,6 +81,12 @@ const workDatas = [
     subtitle: 'CLONE CODING',
   },
   {
+    url: 'https://github.com/mireyhgnay/dog-api/blob/main/README.md',
+    imageUrl: './images/works/dog.jpg',
+    title: 'DOG BREEDS',
+    subtitle: 'TOY PROJECT',
+  },
+  {
     url: 'https://github.com/mireyhgnay/iu-fanpage/blob/main/README.md',
     imageUrl: './images/works/fanpage.jpg',
     title: 'FANPAGE',
