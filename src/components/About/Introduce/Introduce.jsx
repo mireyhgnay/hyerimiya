@@ -37,8 +37,8 @@ export default function Introduce() {
         <IntroList>
           <IntroItem>
             안녕하세요ᕱᕱ <br />
-            저는 UI 개발자로서 2년, 프론트엔드 개발자로서 3년의 경력을 가지고
-            있습니다.
+            저는 UI 개발자로서 3년, 프론트엔드 개발자로서 2년이상의 경력을
+            가지고 있습니다.
             <br />
             개발자로서의 성장과 성취에 큰 자부심을 느끼고 있습니다.
           </IntroItem>
