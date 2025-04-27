@@ -69,7 +69,7 @@ const ContactLink = styled.a`
 
 const contactData = [
   {
-    name: ' did3296@naver.com',
+    name: 'did3296@naver.com',
     href: 'mailto: did3296@naver.com',
   },
   {
@@ -77,8 +77,8 @@ const contactData = [
     href: 'https://github.com/mireyhgnay',
   },
   {
-    name: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/%ED%98%9C%EB%A6%BC-%EC%96%91-8872262b8/',
+    name: 'Tech Blog',
+    href: 'https://hyerimiya.notion.site/Hyerim-Front-End-Developer-1d147244c10780108380d1e9c73e723c?pvs=4',
   },
   {
     name: 'Daily Blog',
